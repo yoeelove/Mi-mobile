@@ -73,7 +73,7 @@ const config = {
       },
       filename: 'index.html',
       template: path.resolve(__dirname, 'src/index.html'),
-      title: '小米手机官网',
+      title: '小米官网',
       chunksSortMode: 'manual',
       chunks: ['index'],
       excludeChunks: ['node_modules'],
@@ -86,7 +86,7 @@ const config = {
       },
       filename: 'list.html',
       template: path.resolve(__dirname, 'src/list.html'),
-      title: '小米手机官网',
+      title: '小米官网',
       chunksSortMode: 'manual',
       chunks: ['list'],
       excludeChunks: ['node_modules'],
@@ -99,7 +99,7 @@ const config = {
       },
       filename: 'detail.html',
       template: path.resolve(__dirname, 'src/detail.html'),
-      title: '小米手机官网',
+      title: '小米官网',
       chunksSortMode: 'manual',
       chunks: ['detail'],
       excludeChunks: ['node_modules'],
@@ -112,7 +112,7 @@ const config = {
       },
       filename: 'cart.html',
       template: path.resolve(__dirname, 'src/cart.html'),
-      title: '小米手机官网',
+      title: '小米官网',
       chunksSortMode: 'manual',
       chunks: ['cart'],
       excludeChunks: ['node_modules'],
@@ -125,7 +125,7 @@ const config = {
       },
       filename: 'order.html',
       template: path.resolve(__dirname, 'src/order.html'),
-      title: '小米手机官网',
+      title: '小米官网',
       chunksSortMode: 'manual',
       chunks: ['order'],
       excludeChunks: ['node_modules'],
@@ -139,7 +139,7 @@ const config = {
   	},
     open: true,
   	host: 'localhost',
-  	port: 3300
+  	port: 3000
   }
 };
 
